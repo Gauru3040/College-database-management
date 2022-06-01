@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    font-family: 'PT Serif', serif;
+}
+body{
+    background:url('./nim.jpg')  no-repeat center center/cover ;
+  
+}
+#logoimg{
+    z-index:-1;
+    
+   
+}
+
+#container1{
+    background-color:rgba(99, 119, 119, 0.493);
+  
+        box-shadow:3px 3px 20px 3px rgba(247, 243, 243, 0.658);
+
+        border: 2px solid   black;
+
+        
+      
+
+}
+
+
+.container{
+    max-width: 80%; 
+    padding: 34px; 
+    margin: auto;
+}
+
+.container h1 {
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    font-size: 40px;
+    color:rgb(0, 0, 0);
+}
+.container h2{
+    color:grey;
+    
+}
+
+p{
+    font-size: 17px;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+}
+
+input, textarea{
+    
+    border: 2px solid   rgb(119, 119, 30);
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    width: 60%;
+    margin: 11px 0px;
+    padding: 3px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn{
+    color: white;
+    background: grey;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color:darkgrey;
+}
+
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+}
+.submitMsg{ 
+    color: green;
+}

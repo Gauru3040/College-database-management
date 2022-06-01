@@ -1,0 +1,47 @@
+table {
+    margin: 0 auto;
+    font-size: large;
+    border: 1px solid black;
+    background-color: grey;
+}
+
+h1 {
+    text-align: center;
+    background-color:cadetblue ;
+    color: #006600;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', 
+    ' Calibri', 'Trebuchet MS', 'sans-serif';
+}
+.btn{
+    color: white;
+    background: grey;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+    
+}
+td {
+    background-color: #E4F5D4;
+    border: 1px solid black;
+}
+p{
+    font-size: 17px;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+}
+
+th,
+td {
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+td {
+    font-weight: lighter;
+}
